@@ -23,12 +23,12 @@ Les 22 documents d'origine (14 PDF, 4 PowerPoint, 3 Word, 1 Pages) sont tous cou
 Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instructions.md) (consignes toujours actives : répondre en français, chercher d'abord dans `docs/`, citer les sources, hiérarchie de fiabilité) et [`AGENTS.md`](AGENTS.md) (mêmes règles pour les agents).
 
 **1. Dans ton éditeur (VS Code, Visual Studio, JetBrains)** — le plus simple
-1. Récupère le dépôt : `git clone https://github.com/eddoua59-design/skema-agile-copilot.git` (ou *Code → Download ZIP* sur la page GitHub, connecté avec le compte propriétaire), puis ouvre le dossier dans ton éditeur.
+1. Récupère le dépôt : `git clone https://github.com/eddoua59-design/skema-agile-copilot.git` (dépôt privé : authentification GitHub requise) ou *Code → Download ZIP* sur la page GitHub (connecté avec le compte propriétaire), puis ouvre le dossier dans ton éditeur.
 2. Ouvre **Copilot Chat** : les consignes de `.github/copilot-instructions.md` sont chargées automatiquement.
 3. Pose tes questions en laissant Copilot chercher dans le dossier (`@workspace` / `#codebase` dans VS Code) ou en joignant un fichier (`#file:docs/prince2/guide-rapide-foundation/06-processus.md`).
 
 **2. Avec un Space Copilot (github.com)** — pour avoir la base de connaissances dans le chat web
-- Crée un *Space* (github.com/copilot/spaces) et ajoute comme sources **le dépôt** (si ton compte de travail y a accès) **ou les fichiers** `docs/**`, `glossaire.md`, `comparatif-methodes.md` (téléversement). Colle aussi le contenu de `.github/copilot-instructions.md` dans les instructions du Space.
+- Crée un *Space* (github.com/copilot/spaces) et ajoute comme sources **le dépôt** (si ton compte de travail y a accès) **ou les fichiers** `docs/**`, `glossaire.md`, `comparatif-methodes.md` (téléversement). Si le Space propose un champ d'instructions, colle-y le contenu de `.github/copilot-instructions.md`.
 
 **3. Copilot CLI / agent** — lit `AGENTS.md` et `.github/copilot-instructions.md` à la racine du dépôt.
 
