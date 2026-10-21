@@ -7,7 +7,7 @@ fiabilite: synthese
 
 # Index — où trouver quoi
 
-> Point d'entrée pour GitHub Copilot et pour toi : d'abord la carte « question → fichier », puis la liste complète des fichiers avec leur niveau de fiabilité, puis la correspondance avec les 22 documents d'origine.
+> Point d'entrée pour GitHub Copilot et pour toi : d'abord la carte « question → fichier », puis la liste complète des fichiers avec leur niveau de fiabilité, puis la correspondance avec les documents d'origine (dossiers `AGILE`, `COURS` et `PMI-SKEMA`).
 
 ## 1. Où trouver quoi
 
@@ -44,13 +44,20 @@ fiabilite: synthese
 | Construire des KPI (SMART, types d'indicateurs) | [03-indicateurs-kpi.md](docs/skema-cours/performance-tableaux-de-bord/03-indicateurs-kpi.md) |
 | Construire un tableau de bord (reporting, représentations) | [04-tableaux-de-bord.md](docs/skema-cours/performance-tableaux-de-bord/04-tableaux-de-bord.md) |
 | Performance multi-niveaux (project / asset / network / system), chaîne de valeur, systèmes, cycle de vie du business | [lectures 1 à 4](docs/skema-cours/) |
+| Cas d'analyse financière : budget d'une librairie (CA, achats, marge brute, charges, résultat, IS, crédit d'impôt recherche) | [cas Minerve 1](docs/skema-cours/analyse-financiere/cas-minerve-1-chiffre-d-affaires.md) · [2](docs/skema-cours/analyse-financiere/cas-minerve-2-achats-et-charges-externes.md) · [3](docs/skema-cours/analyse-financiere/cas-minerve-3-resultat.md) |
+| Seuil de rentabilité, marge sur coût variable, analyse différentielle | [cas Politics](docs/skema-cours/analyse-financiere/cas-politics-seuil-de-rentabilite.md) |
+| Géopolitique : puissance (hard / soft power, mesure, grande puissance), retour de la guerre | [géopolitique](docs/skema-cours/geopolitique/) |
+| Livrable « Performance et gouvernance » : consigne (KPI, tableaux de bord, parties prenantes, PMO) ; bête à cornes, arbre des objectifs, pieuvre | [consigne](docs/skema-cours/pmo-tdb-perf/travail-a-realiser-performance-gouvernance.md) · [modèles d'outils](docs/skema-cours/pmo-tdb-perf/modeles-outils-pmo-tdb.md) |
+| Gestion du changement et gestion de projet (présentation d'étudiants), notes de séances, méthodologie de la recherche / thèse | [synergie](docs/skema-cours/leadership-changement/synergie-gestion-de-projet-et-du-changement.md) · [notes de séances](docs/skema-cours/notes-personnelles-seances.md) |
+| Mégaprojets et agilité (revue de littérature, SAFe, entretiens Airbus / Renault / Safran / Stellantis / SNCF / Dassault) | [mémoire MS MPP](docs/pmi-skema/these-agilite-megaprojets/) |
+| Leadership transformationnel vs transactionnel (Bass) | [article de Bass](docs/pmi-skema/bass-transactional-to-transformational-leadership.md) |
 | Définitions croisées FR/EN | [glossaire.md](glossaire.md) |
 | Différences entre les méthodes, rôles et artefacts équivalents | [comparatif-methodes.md](comparatif-methodes.md) |
 | Templates de l'enseignant | [templates-liens.md](docs/ressources/templates-liens.md) |
 
 ## 2. Tous les fichiers
 
-Niveaux de `fiabilite` : **officiel** › **support-de-cours** › **notes** › **notes-non-verifiees** / **quiz-non-verifie**.
+Niveaux de `fiabilite` : **officiel** › **support-de-cours** › **publication** (article scientifique) › **travail-etudiant** (mémoire, devoirs rendus : non officiel) › **notes** › **notes-non-verifiees** / **quiz-non-verifie**.
 
 
 ### Scrum
@@ -111,18 +118,50 @@ Niveaux de `fiabilite` : **officiel** › **support-de-cours** › **notes** ›
 | [modules/module-10b-business-analysis-exigences-et-solution.md](docs/capm/modules/module-10b-business-analysis-exigences-et-solution.md) | CAPM — préparation à l'examen — Module 10 (2/2) — Business Analysis : élicitation et analyse des exigences, évaluation et livraison de la solution | support de cours (diapositives) | support-de-cours | 21 Ko |
 | [quiz-skema-capm.md](docs/capm/quiz-skema-capm.md) | CAPM — quiz SKEMA (39 QCM avec clé de réponses) | quiz (questions + réponses) | quiz-non-verifie | 21 Ko |
 
-### Cours SKEMA : performance, tableaux de bord, lectures
+### Cours SKEMA : performance, tableaux de bord, lectures, analyse financière, géopolitique, leadership et changement
 
 | Fichier | Titre | Type | Fiabilité | Taille |
 |---|---|---|---|---|
+| [analyse-financiere/cas-minerve-1-chiffre-d-affaires.md](docs/skema-cours/analyse-financiere/cas-minerve-1-chiffre-d-affaires.md) | Cas Librairie Minerve — épisode 1 : chiffre d'affaires (énoncé et corrigé) | cas d'étude (énoncé + corrigé tableur) | support-de-cours | 8 Ko |
+| [analyse-financiere/cas-minerve-2-achats-et-charges-externes.md](docs/skema-cours/analyse-financiere/cas-minerve-2-achats-et-charges-externes.md) | Cas Minerve — épisode 2 : achats, variation de stocks et charges externes (énoncé, corrigé et feuille de travail) | cas d'étude (énoncé + corrigé tableur + feuille de travail) | support-de-cours | 7 Ko |
+| [analyse-financiere/cas-minerve-3-resultat.md](docs/skema-cours/analyse-financiere/cas-minerve-3-resultat.md) | Cas Minerve — épisode 3 : frais de personnel, amortissements, résultat et impôt (énoncé et feuille de travail) | cas d'étude (énoncé + feuille de travail incomplète) | support-de-cours | 8 Ko |
+| [analyse-financiere/cas-politics-seuil-de-rentabilite.md](docs/skema-cours/analyse-financiere/cas-politics-seuil-de-rentabilite.md) | Cas Politics — seuil de rentabilité et analyse différentielle (énoncé et tableur rendu) | cas d'étude (énoncé + travail rendu) | travail-etudiant | 8 Ko |
+| [geopolitique/01-puissance-partie-1.md](docs/skema-cours/geopolitique/01-puissance-partie-1.md) | Grands enjeux de géopolitique (MS MPP) — Cours 1 — Qu'est-ce que la puissance ? (diapos 1-44) | cours (diapositives) | support-de-cours | 18 Ko |
+| [geopolitique/01-puissance-partie-2.md](docs/skema-cours/geopolitique/01-puissance-partie-2.md) | Grands enjeux de géopolitique (MS MPP) — Cours 1 — Qu'est-ce que la puissance ? (diapos 45-84) | cours (diapositives) | support-de-cours | 20 Ko |
+| [geopolitique/02-retour-de-la-guerre-partie-1.md](docs/skema-cours/geopolitique/02-retour-de-la-guerre-partie-1.md) | Grands enjeux de géopolitique (MS MPP) — Cours 2 — Le retour de la guerre ? (diapos 1-38) | cours (diapositives) | support-de-cours | 17 Ko |
+| [geopolitique/02-retour-de-la-guerre-partie-2.md](docs/skema-cours/geopolitique/02-retour-de-la-guerre-partie-2.md) | Grands enjeux de géopolitique (MS MPP) — Cours 2 — Le retour de la guerre ? (diapos 39-77) | cours (diapositives) | support-de-cours | 28 Ko |
+| [leadership-changement/synergie-gestion-de-projet-et-du-changement.md](docs/skema-cours/leadership-changement/synergie-gestion-de-projet-et-du-changement.md) | Gestion de projet et gestion du changement : une synergie essentielle (présentation rendue) | présentation d'étudiants (travail rendu) | travail-etudiant | 3 Ko |
 | [lecture-1-programme.md](docs/skema-cours/lecture-1-programme.md) | SKEMA — Lecture 1 : PROGRAMME (projectification, programmification, performance multi-niveaux) | support de cours (diapositives, anglais) | support-de-cours | 7 Ko |
 | [lecture-2-operations.md](docs/skema-cours/lecture-2-operations.md) | SKEMA — Lecture 2 : OPERATIONS (chaîne de valeur, théorie des systèmes, systèmes opérationnels) | support de cours (diapositives, anglais) | support-de-cours | 6 Ko |
 | [lecture-3-projects.md](docs/skema-cours/lecture-3-projects.md) | SKEMA — Lecture 3 : PROJECTS (cycle de vie du business et du projet, efficience vs succès) | support de cours (diapositives, anglais) | support-de-cours | 4 Ko |
 | [lecture-4-performance.md](docs/skema-cours/lecture-4-performance.md) | SKEMA — Lecture 4 : PERFORMANCE (fonction de contrôle, objectifs, KPI et tableaux de bord) | support de cours (diapositives, anglais) | support-de-cours | 6 Ko |
+| [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) | Notes personnelles de séances : méthodologie de la recherche, mégaprojets, leadership et changement | notes personnelles (fragmentaires) | notes | 3 Ko |
 | [performance-tableaux-de-bord/01-notions-de-performance.md](docs/skema-cours/performance-tableaux-de-bord/01-notions-de-performance.md) | Performance de projet et tableaux de bord — Chapitre 1 — Notions de performance de projet | support de cours (diapositives) | support-de-cours | 16 Ko |
 | [performance-tableaux-de-bord/02-outils-classiques-de-suivi.md](docs/skema-cours/performance-tableaux-de-bord/02-outils-classiques-de-suivi.md) | Performance de projet et tableaux de bord — Chapitre 2 — Outils classiques de suivi (valeur acquise, Gantt, risques, enjeux, progrès, exemple de rapport) | support de cours (diapositives) | support-de-cours | 18 Ko |
 | [performance-tableaux-de-bord/03-indicateurs-kpi.md](docs/skema-cours/performance-tableaux-de-bord/03-indicateurs-kpi.md) | Performance de projet et tableaux de bord — Chapitre 3 — Indicateurs clés de performance (KPI) | support de cours (diapositives) | support-de-cours | 11 Ko |
 | [performance-tableaux-de-bord/04-tableaux-de-bord.md](docs/skema-cours/performance-tableaux-de-bord/04-tableaux-de-bord.md) | Performance de projet et tableaux de bord — Chapitre 4 — Construction de tableaux de bord | support de cours (diapositives) | support-de-cours | 12 Ko |
+| [pmo-tdb-perf/modeles-outils-pmo-tdb.md](docs/skema-cours/pmo-tdb-perf/modeles-outils-pmo-tdb.md) | PMO, performance de projet et tableaux de bord — modèles d'outils (bête à cornes, arbre des objectifs, pieuvre) | modèles vierges (schémas décrits en texte) | support-de-cours | 3 Ko |
+| [pmo-tdb-perf/travail-a-realiser-performance-gouvernance.md](docs/skema-cours/pmo-tdb-perf/travail-a-realiser-performance-gouvernance.md) | Performance et gouvernance de projets — travail à réaliser (consigne) | consigne de travail (cours) | support-de-cours | 3 Ko |
+
+### PMI-SKEMA : mémoire « L'agilité dans les mégaprojets » et article de Bass
+
+| Fichier | Titre | Type | Fiabilité | Taille |
+|---|---|---|---|---|
+| [bass-transactional-to-transformational-leadership.md](docs/pmi-skema/bass-transactional-to-transformational-leadership.md) | Bernard M. Bass — From Transactional to Transformational Leadership: Learning to Share the Vision | article scientifique (scan reconnu par OCR) | publication | 40 Ko |
+| [these-agilite-megaprojets/01-resume-et-sommaire.md](docs/pmi-skema/these-agilite-megaprojets/01-resume-et-sommaire.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Résumé, remerciements, sommaire et introduction | mémoire professionnel (étudiants) | travail-etudiant | 9 Ko |
+| [these-agilite-megaprojets/02-revue-de-litterature.md](docs/pmi-skema/these-agilite-megaprojets/02-revue-de-litterature.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — 1. Revue de littérature (mégaprojets, agilité, modèles organisationnels, innovation) | mémoire professionnel (étudiants) | travail-etudiant | 34 Ko |
+| [these-agilite-megaprojets/03-problematique-methodologie-resultats.md](docs/pmi-skema/these-agilite-megaprojets/03-problematique-methodologie-resultats.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — 2. Problématique, 3. Méthodologie, 4. Résultats | mémoire professionnel (étudiants) | travail-etudiant | 32 Ko |
+| [these-agilite-megaprojets/04-discussion-conclusion-references.md](docs/pmi-skema/these-agilite-megaprojets/04-discussion-conclusion-references.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — 5. Discussions et recommandations, 6. Limites, Conclusion, Références | mémoire professionnel (étudiants) | travail-etudiant | 29 Ko |
+| [these-agilite-megaprojets/05-annexes-1-a-6.md](docs/pmi-skema/these-agilite-megaprojets/05-annexes-1-a-6.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexes 1 à 6 (performance, facteurs de succès, questionnaire de pertinence agile, SAFe) | mémoire professionnel (étudiants) | travail-etudiant | 4 Ko |
+| [these-agilite-megaprojets/06-annexe-7-interview-airbus.md](docs/pmi-skema/these-agilite-megaprojets/06-annexe-7-interview-airbus.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 7 — Interview 1 (Intervenant 1, Airbus) | mémoire professionnel (étudiants) | travail-etudiant | 12 Ko |
+| [these-agilite-megaprojets/07-annexe-8-interview-renault.md](docs/pmi-skema/these-agilite-megaprojets/07-annexe-8-interview-renault.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 8 — Interview 2 (Intervenant 2, Renault) | mémoire professionnel (étudiants) | travail-etudiant | 19 Ko |
+| [these-agilite-megaprojets/08-annexe-9-interview-safran-electrical-and-power.md](docs/pmi-skema/these-agilite-megaprojets/08-annexe-9-interview-safran-electrical-and-power.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 9 — Interview 3 (Intervenant 3, Safran Electrical and Power) | mémoire professionnel (étudiants) | travail-etudiant | 15 Ko |
+| [these-agilite-megaprojets/09-annexe-10-interview-safran-engineering-services.md](docs/pmi-skema/these-agilite-megaprojets/09-annexe-10-interview-safran-engineering-services.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 10 — Interview 4 (Intervenant 4, Safran Engineering Services) | mémoire professionnel (étudiants) | travail-etudiant | 15 Ko |
+| [these-agilite-megaprojets/10-annexe-11-interview-stellantis.md](docs/pmi-skema/these-agilite-megaprojets/10-annexe-11-interview-stellantis.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 11 — Interview 5 (Intervenant 5, Stellantis) | mémoire professionnel (étudiants) | travail-etudiant | 17 Ko |
+| [these-agilite-megaprojets/11-annexe-12-interview-sncf.md](docs/pmi-skema/these-agilite-megaprojets/11-annexe-12-interview-sncf.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 12 — Interview 6 (Intervenant 6, SNCF) | mémoire professionnel (étudiants) | travail-etudiant | 13 Ko |
+| [these-agilite-megaprojets/12-annexe-13-interview-dassault-aviation.md](docs/pmi-skema/these-agilite-megaprojets/12-annexe-13-interview-dassault-aviation.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 13 — Interview 7 (Intervenant 7, Dassault Aviation) | mémoire professionnel (étudiants) | travail-etudiant | 12 Ko |
+| [these-agilite-megaprojets/13-annexe-14-interview-autoentrepreneur.md](docs/pmi-skema/these-agilite-megaprojets/13-annexe-14-interview-autoentrepreneur.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 14 — Interview 8 (Intervenant 8, autoentrepreneur) | mémoire professionnel (étudiants) | travail-etudiant | 15 Ko |
+| [these-agilite-megaprojets/14-annexe-15-guide-d-entretien.md](docs/pmi-skema/these-agilite-megaprojets/14-annexe-15-guide-d-entretien.md) | L'agilité dans les mégaprojets (mémoire MS MPP) — Annexe 15 — Guide d'entretien | mémoire professionnel (étudiants) | travail-etudiant | 7 Ko |
 
 ### Ressources
 
@@ -164,3 +203,41 @@ Niveaux de `fiabilite` : **officiel** › **support-de-cours** › **notes** ›
 | Lecture 3 - PROJECTS.pptx | [lecture-3-projects.md](docs/skema-cours/lecture-3-projects.md) |
 | Lecture 4 - PERFORMANCE.pptx | [lecture-4-performance.md](docs/skema-cours/lecture-4-performance.md) |
 | PRINCE COURS.pages | [notes-personnelles-prince2.md](docs/prince2/notes-personnelles-prince2.md) |
+
+## 4. Correspondance avec les documents d'origine des dossiers `COURS` et `PMI-SKEMA`
+
+Le dossier `MANAGEMENT COMPLEXITÉ` est vide.
+
+| Dossier | Document d'origine | Fichier(s) du dépôt |
+|---|---|---|
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Librairie Minerve 1 CA enoncé 2025.docx | [cas-minerve-1-chiffre-d-affaires.md](docs/skema-cours/analyse-financiere/cas-minerve-1-chiffre-d-affaires.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Librairie Minerve 1 CA enoncé 2025.pages | même texte que le `.docx` (non converti séparément) |
+| SKEMA/COURS/ANALYSE FINANCIERE | cas Minerve 1 C.A corrigé 2025.xlsx | [cas-minerve-1-chiffre-d-affaires.md](docs/skema-cours/analyse-financiere/cas-minerve-1-chiffre-d-affaires.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 2 enoncé 2025.docx | [cas-minerve-2-achats-et-charges-externes.md](docs/skema-cours/analyse-financiere/cas-minerve-2-achats-et-charges-externes.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 2 enoncé 2025.pages | même texte que le `.docx` (non converti séparément) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 2 corrigé 2025.xlsx | [cas-minerve-2-achats-et-charges-externes.md](docs/skema-cours/analyse-financiere/cas-minerve-2-achats-et-charges-externes.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 2 feuille vierge.xlsx | [cas-minerve-2-achats-et-charges-externes.md](docs/skema-cours/analyse-financiere/cas-minerve-2-achats-et-charges-externes.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 3 énoncé 2025.docx | [cas-minerve-3-resultat.md](docs/skema-cours/analyse-financiere/cas-minerve-3-resultat.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Minerve 3 feuille vierge.xlsx | [cas-minerve-3-resultat.md](docs/skema-cours/analyse-financiere/cas-minerve-3-resultat.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Sans titre.pages | [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Politics.docx | [cas-politics-seuil-de-rentabilite.md](docs/skema-cours/analyse-financiere/cas-politics-seuil-de-rentabilite.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Politics.pages | même texte que le `.docx` ci-dessus (non converti séparément) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Politics (a remplir).xlsx | [cas-politics-seuil-de-rentabilite.md](docs/skema-cours/analyse-financiere/cas-politics-seuil-de-rentabilite.md) |
+| SKEMA/COURS/ANALYSE FINANCIERE | Cas Politics (version rendue en binôme).xlsx | [cas-politics-seuil-de-rentabilite.md](docs/skema-cours/analyse-financiere/cas-politics-seuil-de-rentabilite.md) |
+| SKEMA/COURS/GEOPOLITIQUE | MS MPP - Cours 1 - Quest-ce que la puissance.pdf | [geopolitique/](docs/skema-cours/geopolitique/) (2 fichiers) |
+| SKEMA/COURS/GEOPOLITIQUE | MS MPP - Cours 2 - Le retour de la guerre-2.pdf | [geopolitique/](docs/skema-cours/geopolitique/) (2 fichiers) |
+| SKEMA/COURS/PMO TDB PERF | PMO TDB.pdf | [modeles-outils-pmo-tdb.md](docs/skema-cours/pmo-tdb-perf/modeles-outils-pmo-tdb.md) |
+| SKEMA/COURS/PMO TDB PERF | PMO TDB.pages | [modeles-outils-pmo-tdb.md](docs/skema-cours/pmo-tdb-perf/modeles-outils-pmo-tdb.md) |
+| SKEMA/COURS/PMO TDB PERF | Travail à réaliser dans le cadre du cours.pdf | [travail-a-realiser-performance-gouvernance.md](docs/skema-cours/pmo-tdb-perf/travail-a-realiser-performance-gouvernance.md) |
+| SKEMA/COURS/LEADERSHIP & CHANGEMENT | Synergie-Management-de-Projet-et-du-Changement.pdf | [synergie-gestion-de-projet-et-du-changement.md](docs/skema-cours/leadership-changement/synergie-gestion-de-projet-et-du-changement.md) |
+| SKEMA/COURS/LEADERSHIP & CHANGEMENT | Synergie-Management-de-Projet-et-du-Changement.key | fichier Keynote de la même présentation : non converti (le PDF est converti) |
+| SKEMA/COURS/LEADERSHIP & CHANGEMENT | Changement.pages | [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) |
+| SKEMA/COURS/MEGAPROJET et MÉTHODO RECHERCHE | MEGA PROJET.pages | [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) |
+| SKEMA/COURS/MEGAPROJET et MÉTHODO RECHERCHE | Leadership et changement.pages | [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) |
+| SKEMA/COURS/MEGAPROJET et MÉTHODO RECHERCHE | Sans titre 3.pages | [notes-personnelles-seances.md](docs/skema-cours/notes-personnelles-seances.md) |
+| PMI-SKEMA | 20210009_thesepro.pdf | [these-agilite-megaprojets/](docs/pmi-skema/these-agilite-megaprojets/) (14 fichiers) |
+| PMI-SKEMA | Bass_From transactional to transformational leadership.pdf | [bass-transactional-to-transformational-leadership.md](docs/pmi-skema/bass-transactional-to-transformational-leadership.md) |
+| PMI-SKEMA | CAPM-Exam Content Outline-français.pdf | [eco-examen-capm.md](docs/capm/eco-examen-capm.md) (fichier identique à celui de `AGILE`) |
+| PMI-SKEMA | CAPM_2025_1.21_Français_Final Module 1-5-ST.pdf | [docs/capm/modules/](docs/capm/modules/) (fichier identique à celui de `AGILE`) |
+| PMI-SKEMA | CAPM_2025_1.2_Français_Final Module 10-ST.pdf | [docs/capm/modules/](docs/capm/modules/) (fichier identique à celui de `AGILE`) |
+| PMI-SKEMA | PMI.pdf | aucun fichier : PDF de 182 pages = concaténation exacte des modules 1-5, 6-9 et 10, déjà convertis dans [docs/capm/modules/](docs/capm/modules/) |

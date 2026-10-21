@@ -1,6 +1,6 @@
 # SKEMA Agile — base de connaissances pour GitHub Copilot
 
-Les supports de cours du dossier **SKEMA / AGILE** (Scrum, AgilePM/DSDM, PRINCE2 7, CAPM/PMI, performance et tableaux de bord), **convertis en Markdown** pour que GitHub Copilot (et toi) puissiez les lire, les chercher et s'en servir : réviser les certifications, poser des questions de méthode, préparer des livrables.
+Les supports de cours des dossiers **SKEMA / AGILE**, **SKEMA / COURS** et **PMI-SKEMA** (Scrum, AgilePM/DSDM, PRINCE2 7, CAPM/PMI, performance et tableaux de bord, analyse financière, géopolitique, leadership et changement, mégaprojets), **convertis en Markdown** pour que GitHub Copilot (et toi) puissiez les lire, les chercher et s'en servir : réviser les certifications, poser des questions de méthode, préparer des livrables.
 
 > ⚠️ **Usage personnel d'étude.** Il contient des documents protégés (PeopleCert, APMG/Agile Business Consortium, PMI, SKEMA) : voir « Droits et provenance ». Vérifie la politique de ton entreprise avant de copier ces contenus sur un poste ou un dépôt professionnel.
 
@@ -12,11 +12,12 @@ Les supports de cours du dossier **SKEMA / AGILE** (Scrum, AgilePM/DSDM, PRINCE2
 | **AgilePM / DSDM** | [`docs/agilepm/`](docs/agilepm/) | Cours SKEMA (84 diapos), cahier d'exercices, examen blanc de 50 questions avec réponses |
 | **PRINCE2 7** | [`docs/prince2/`](docs/prince2/) | Guide de référence rapide Foundation, échantillon d'examen (60 questions, réponses et justifications), notes de cours et notes personnelles |
 | **CAPM / PMI** | [`docs/capm/`](docs/capm/) | Exam Content Outline (PMI), 10 modules de préparation, quiz SKEMA (39 QCM) |
-| **Cours SKEMA** | [`docs/skema-cours/`](docs/skema-cours/) | Performance de projet et tableaux de bord (130 diapos), lectures 1 à 4 (performance multi-niveaux, opérations, projets) |
+| **Cours SKEMA** | [`docs/skema-cours/`](docs/skema-cours/) | Performance de projet et tableaux de bord (130 diapos), lectures 1 à 4 (performance multi-niveaux, opérations, projets), cas d'analyse financière (Minerve, Politics), géopolitique (2 cours), consigne et modèles d'outils PMO, leadership et changement, notes de séances |
+| **PMI-SKEMA** | [`docs/pmi-skema/`](docs/pmi-skema/) | Mémoire de mastère « L'agilité dans les mégaprojets » (88 pages, 8 entretiens) et article de Bass sur le leadership transformationnel |
 | **Ressources** | [`docs/ressources/`](docs/ressources/) | Lien vers les templates de l'enseignant |
 | **Synthèses** | [`INDEX.md`](INDEX.md), [`glossaire.md`](glossaire.md), [`comparatif-methodes.md`](comparatif-methodes.md) | Carte du dépôt, glossaire FR/EN, comparatif des méthodes (rédigés à partir des sources) |
 
-Les 22 documents d'origine (14 PDF, 4 PowerPoint, 3 Word, 1 Pages) sont tous couverts — voir la table de correspondance dans [`INDEX.md`](INDEX.md).
+Les 22 documents du dossier `AGILE` (14 PDF, 4 PowerPoint, 3 Word, 1 Pages) sont tous couverts, ainsi que les documents utiles des dossiers `COURS` et `PMI-SKEMA` (les doublons avec `AGILE` ne sont pas repris) — voir les tables de correspondance dans [`INDEX.md`](INDEX.md).
 
 ## Utiliser le dépôt avec GitHub Copilot
 
@@ -51,13 +52,14 @@ Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instruct
     ├── agilepm/                    cours-skema/ (6 fichiers) · exercices-agilepm.md · examen-blanc-agilepm/
     ├── prince2/                    guide-rapide-foundation/ (6) · examen-blanc-prince2-7/ (6) · notes-cours-prince2.md · notes-personnelles-prince2.md
     ├── capm/                       eco-examen-capm.md · modules/ (11 fichiers) · quiz-skema-capm.md
-    ├── skema-cours/                lectures 1-4 · performance-tableaux-de-bord/ (4)
+    ├── skema-cours/                lectures 1-4 · performance-tableaux-de-bord/ (4) · analyse-financiere/ (4) · geopolitique/ (4) · pmo-tdb-perf/ (2) · leadership-changement/ (1) · notes-personnelles-seances.md
+    ├── pmi-skema/                  these-agilite-megaprojets/ (14) · bass-transactional-to-transformational-leadership.md
     └── ressources/                 templates-liens.md
 ```
 
 **Conventions**
 - Chaque fichier commence par un front matter : `titre`, `source_fichier` (document d'origine), `type`, `langue`, `fiabilite`, `sujets`.
-- `fiabilite` : **`officiel`** (documents des éditeurs) › **`support-de-cours`** (diapos SKEMA) › **`notes`** › **`notes-non-verifiees`** / **`quiz-non-verifie`** ; `synthese` pour les fichiers rédigés ici.
+- `fiabilite` : **`officiel`** (documents des éditeurs) › **`support-de-cours`** (diapos et cas SKEMA) › **`publication`** (article scientifique) › **`travail-etudiant`** (mémoire, devoirs rendus : non officiel) › **`notes`** › **`notes-non-verifiees`** / **`quiz-non-verifie`** ; `synthese` pour les fichiers rédigés ici.
 - Les marqueurs HTML `<!-- p.N -->` (page du PDF) et `<!-- diapo N -->` permettent de citer l'origine.
 - Fichiers de taille raisonnable (quelques Ko à ~35 Ko) pour une bonne recherche sémantique.
 
@@ -77,6 +79,11 @@ Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instruct
 | Notes de cours PRINCE2 | Notes d'un participant (non officielles) | — |
 | Notes personnelles PRINCE2 | Notes personnelles + comptes rendus générés automatiquement | Fiabilité limitée |
 | Templates | Lien Dropbox de l'enseignant (lien retiré du dépôt) | — |
+| Cours de géopolitique | Frédéric Munier (SKEMA) | Support de cours — non redistribuable |
+| Cas d'analyse financière (Minerve, Politics) | Enseignant de SKEMA (auteur non indiqué) | Support de cours ; le tableur Politics est un travail d'étudiant |
+| Mémoire « L'agilité dans les mégaprojets » | Julien Roussaud et Jérôme Paquereau (MS MPP, SKEMA) | Travail d'étudiants, droits réservés aux auteurs ; remerciements nominatifs non reproduits, un nom d'interviewé pseudonymisé |
+| Article de Bass « From Transactional to Transformational Leadership » | Bernard M. Bass, *Organizational Dynamics* | **Article protégé** — scan reconnu par OCR, usage personnel |
+| Présentation « Synergie projet / changement » | Travail d'étudiants (SKEMA) | Chiffres non sourcés |
 
 PRINCE2® et AgilePM® sont des marques déposées de leurs propriétaires ; PMI, CAPM et PMBOK sont des marques du Project Management Institute.
 
@@ -87,4 +94,6 @@ PRINCE2® et AgilePM® sont des marques déposées de leurs propriétaires ; PMI
 - Le cours **Lectures 1-4** (PowerPoint très visuel et animé) est **condensé** : les diapos d'animation répétées sont fusionnées.
 - Quelques coquilles du texte d'origine (espaces manquants, tronquages de tableaux dans les PDF) subsistent.
 - Les **notes personnelles PRINCE2** mêlent notes et comptes rendus automatiques : à utiliser avec prudence.
-- Seul le dossier `SKEMA/AGILE` a été converti : les autres documents SKEMA (autres cours, dossier `PMI-SKEMA`, etc.) ne sont **pas** inclus.
+- Les dossiers `AGILE`, `COURS` et `PMI-SKEMA` sont convertis ; le dossier `MANAGEMENT COMPLEXITÉ` est vide et le fichier Keynote `.key` de la présentation « Synergie » n'est pas converti (son PDF l'est).
+- Les **diapos de géopolitique** sont des textes de cours : cartes, photos et graphiques ne sont pas transcrits. L'**article de Bass** vient d'un scan (OCR, deux colonnes) et le **mémoire** garde les figures non transcrites.
+- Les **feuilles de travail Excel** (Minerve 2 et 3) ne sont pas des corrigés : elles contiennent des écarts ou sont incomplètes (signalés ⚠️ dans les fichiers).

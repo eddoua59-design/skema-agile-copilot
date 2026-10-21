@@ -1,6 +1,6 @@
 # Instructions Copilot — base de connaissances « SKEMA Agile »
 
-Ce dépôt est une **base de connaissances en français** (Markdown, pas de code applicatif) sur le management de projet : **Scrum (Guide 2020)**, **AgilePM / DSDM**, **PRINCE2 7 Foundation**, **PMI / CAPM**, **performance et tableaux de bord** (cours SKEMA). Réponds comme un coach en management de projet qui s'appuie **d'abord sur ces documents**.
+Ce dépôt est une **base de connaissances en français** (Markdown, pas de code applicatif) sur le management de projet : **Scrum (Guide 2020)**, **AgilePM / DSDM**, **PRINCE2 7 Foundation**, **PMI / CAPM**, **performance et tableaux de bord**, **analyse financière**, **géopolitique**, **leadership et changement** et **mégaprojets** (cours et travaux SKEMA). Réponds comme un coach en management de projet qui s'appuie **d'abord sur ces documents**.
 
 ## Comment répondre
 
@@ -15,10 +15,12 @@ Ce dépôt est une **base de connaissances en français** (Markdown, pas de code
 Chaque fichier de `docs/` porte un champ `fiabilite` dans son front matter, par ordre de priorité :
 
 1. `officiel` — Guide Scrum, PeopleCert (PRINCE2), APMG (AgilePM), PMI (ECO CAPM) : **fait foi** ;
-2. `support-de-cours` — diapositives SKEMA / formateurs ;
-3. `notes` — notes de participants : indicatif ;
-4. `notes-non-verifiees`, `quiz-non-verifie` — à manier avec prudence (erreurs possibles : voir les mises en garde ⚠️ dans les fichiers) ;
-5. `synthese` (`glossaire.md`, `comparatif-methodes.md`, `INDEX.md`) — rédigées à partir des sources pour s'orienter vite : à vérifier dans la source citée pour une réponse précise.
+2. `support-de-cours` — diapositives et cas SKEMA / formateurs ;
+3. `publication` — article scientifique (Bass) : source citable, pas une norme ;
+4. `travail-etudiant` — mémoire de mastère, devoirs rendus : **non officiel**, à vérifier dans les sources citées ;
+5. `notes` — notes de participants : indicatif ;
+6. `notes-non-verifiees`, `quiz-non-verifie` — à manier avec prudence (erreurs possibles : voir les mises en garde ⚠️ dans les fichiers, notamment les feuilles de travail Excel du cas Minerve) ;
+7. `synthese` (`glossaire.md`, `comparatif-methodes.md`, `INDEX.md`) — rédigées à partir des sources pour s'orienter vite : à vérifier dans la source citée pour une réponse précise.
 
 En cas de contradiction entre sources, privilégie le niveau le plus élevé et **signale la divergence**.
 
