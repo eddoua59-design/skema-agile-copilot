@@ -33,6 +33,21 @@ Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instruct
 
 **3. Copilot CLI / agent** — lit `AGENTS.md` et `.github/copilot-instructions.md` à la racine du dépôt.
 
+**4. Prompts de révision prêts à l'emploi** — dans [`.github/prompts/`](.github/prompts/) (fichiers « prompt » de Copilot, reconnus par VS Code et les éditeurs qui les prennent en charge). Dans Copilot Chat, tape `/` suivi du nom, puis réponds aux champs demandés :
+
+| Commande | Usage |
+|---|---|
+| `/quiz-prince2` · `/quiz-agilepm` · `/quiz-capm` | Quiz une question à la fois, corrigé avec la justification et la source |
+| `/simulation-examen` | Examen blanc sans correction immédiate, bilan chiffré et plan de rattrapage |
+| `/plan-de-revision` | Plan de révision par semaine jusqu'à la date d'examen |
+| `/fiche-de-revision` · `/expliquer-simplement` · `/resumer-un-document` | Fiche d'une page, explication avec analogie, résumé d'un fichier du dépôt |
+| `/flashcards` | Cartes question / réponse (tableau et CSV pour Anki ou Quizlet) |
+| `/comparer-methodes` | Tableau comparatif Scrum / AgilePM / PRINCE2 / PMI sur un thème |
+| `/corriger-ma-reponse` · `/cas-pratique` | Correction d'une réponse rédigée, mini-cas à résoudre avec une méthode |
+| `/kpi-tableau-de-bord` · `/guide-cas-financier` | KPI SMART et tableau de bord ; cas Minerve et Politics pas à pas |
+
+Sur github.com (chat web ou Space), ces fichiers ne sont pas appelables par `/` : copie le texte du prompt dans la conversation.
+
 **Exemples de demandes**
 - « Quelles sont les différences entre un Sprint Planning, un plan de Timebox et un plan de séquence PRINCE2 ? » (s'appuie sur le comparatif)
 - « Interroge-moi sur les 7 principes de PRINCE2 : une question à la fois, corrige avec la justification. »
@@ -47,6 +62,7 @@ Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instruct
 ├── README.md · INDEX.md · glossaire.md · comparatif-methodes.md
 ├── AGENTS.md
 ├── .github/copilot-instructions.md
+├── .github/prompts/                14 prompts de révision (*.prompt.md)
 └── docs/
     ├── scrum/                      guide Scrum 2020 (FR, EN)
     ├── agilepm/                    cours-skema/ (6 fichiers) · exercices-agilepm.md · examen-blanc-agilepm/

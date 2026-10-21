@@ -26,6 +26,7 @@ En cas de contradiction entre sources, privilégie le niveau le plus élevé et 
 
 ## Cas d'usage fréquents
 
+- **Prompts prêts à l'emploi** : `.github/prompts/` (quiz par certification, simulation d'examen, plan de révision, fiches, flashcards, comparatifs…) ; propose-les quand ils répondent à la demande.
 - **Réviser / quiz** : pose les questions **une par une**, attends la réponse de l'utilisateur avant de corriger, puis explique en t'appuyant sur la justification (PRINCE2 : justification de chaque option ; AgilePM : section du manuel ; CAPM : cours). Questions : `docs/*/examen-blanc-*`, `docs/capm/quiz-skema-capm.md`.
 - **Produire un livrable** (user stories, backlog, cas d'affaire / charte, plan de séquence ou de Timebox, registre des risques, tableau de bord et KPI…) : appuie-toi sur les définitions du dépôt, indique le cadre utilisé et tes hypothèses.
 - **Comparer des méthodes** : pars de `comparatif-methodes.md` et vérifie dans les sources.

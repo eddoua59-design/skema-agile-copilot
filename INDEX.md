@@ -51,6 +51,7 @@ fiabilite: synthese
 | Gestion du changement et gestion de projet (présentation d'étudiants), notes de séances, méthodologie de la recherche / thèse | [synergie](docs/skema-cours/leadership-changement/synergie-gestion-de-projet-et-du-changement.md) · [notes de séances](docs/skema-cours/notes-personnelles-seances.md) |
 | Mégaprojets et agilité (revue de littérature, SAFe, entretiens Airbus / Renault / Safran / Stellantis / SNCF / Dassault) | [mémoire MS MPP](docs/pmi-skema/these-agilite-megaprojets/) |
 | Leadership transformationnel vs transactionnel (Bass) | [article de Bass](docs/pmi-skema/bass-transactional-to-transformational-leadership.md) |
+| Prompts de révision (quiz, simulation d'examen, plan, fiches, flashcards…) | [.github/prompts/](.github/prompts/) · [README, section Prompts](README.md#utiliser-le-dépôt-avec-github-copilot) |
 | Définitions croisées FR/EN | [glossaire.md](glossaire.md) |
 | Différences entre les méthodes, rôles et artefacts équivalents | [comparatif-methodes.md](comparatif-methodes.md) |
 | Templates de l'enseignant | [templates-liens.md](docs/ressources/templates-liens.md) |
