@@ -16,4 +16,4 @@ Dépôt de **connaissances Markdown en français** sur le management de projet (
 - Garder la structure `docs/<thème>/…` et le front matter (`titre`, `source_fichier`, `type`, `langue`, `fiabilite`, `sujets`).
 - Ne pas supprimer les marqueurs `<!-- p.N -->` / `<!-- diapo N -->`.
 - Ajouter tout nouveau fichier à `INDEX.md`.
-- Contenu protégé (PeopleCert, APMG, PMI, SKEMA) : dépôt **privé**, usage personnel.
+- Contenu protégé (PeopleCert, APMG, PMI, SKEMA) : usage personnel d'étude.

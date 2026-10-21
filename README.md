@@ -2,7 +2,7 @@
 
 Les supports de cours du dossier **SKEMA / AGILE** (Scrum, AgilePM/DSDM, PRINCE2 7, CAPM/PMI, performance et tableaux de bord), **convertis en Markdown** pour que GitHub Copilot (et toi) puissiez les lire, les chercher et s'en servir : réviser les certifications, poser des questions de méthode, préparer des livrables.
 
-> 🔒 **Dépôt privé — usage personnel.** Il contient des documents protégés (PeopleCert, APMG/Agile Business Consortium, PMI, SKEMA) et un lien de partage privé. **Ne pas le rendre public** (voir « Droits et provenance »). Vérifie la politique de ton entreprise avant de copier ces contenus sur un poste ou un dépôt professionnel.
+> ⚠️ **Usage personnel d'étude.** Il contient des documents protégés (PeopleCert, APMG/Agile Business Consortium, PMI, SKEMA) : voir « Droits et provenance ». Vérifie la politique de ton entreprise avant de copier ces contenus sur un poste ou un dépôt professionnel.
 
 ## Ce que contient le dépôt
 
@@ -23,7 +23,7 @@ Les 22 documents d'origine (14 PDF, 4 PowerPoint, 3 Word, 1 Pages) sont tous cou
 Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instructions.md) (consignes toujours actives : répondre en français, chercher d'abord dans `docs/`, citer les sources, hiérarchie de fiabilité) et [`AGENTS.md`](AGENTS.md) (mêmes règles pour les agents).
 
 **1. Dans ton éditeur (VS Code, Visual Studio, JetBrains)** — le plus simple
-1. Récupère le dépôt : `git clone https://github.com/eddoua59-design/skema-agile-copilot.git` (dépôt privé : authentification GitHub requise) ou *Code → Download ZIP* sur la page GitHub (connecté avec le compte propriétaire), puis ouvre le dossier dans ton éditeur.
+1. Récupère le dépôt : `git clone https://github.com/eddoua59-design/skema-agile-copilot.git` ou *Code → Download ZIP* sur la page GitHub, puis ouvre le dossier dans ton éditeur.
 2. Ouvre **Copilot Chat** : les consignes de `.github/copilot-instructions.md` sont chargées automatiquement.
 3. Pose tes questions en laissant Copilot chercher dans le dossier (`@workspace` / `#codebase` dans VS Code) ou en joignant un fichier (`#file:docs/prince2/guide-rapide-foundation/06-processus.md`).
 
@@ -76,7 +76,7 @@ Le dépôt contient [`.github/copilot-instructions.md`](.github/copilot-instruct
 | Lectures 1 à 4 | Cours SKEMA (auteur non indiqué) ; références académiques citées conservées | Support de cours |
 | Notes de cours PRINCE2 | Notes d'un participant (non officielles) | — |
 | Notes personnelles PRINCE2 | Notes personnelles + comptes rendus générés automatiquement | Fiabilité limitée |
-| Templates | Lien Dropbox de l'enseignant | Lien privé — dépôt à garder privé |
+| Templates | Lien Dropbox de l'enseignant (lien retiré du dépôt) | — |
 
 PRINCE2® et AgilePM® sont des marques déposées de leurs propriétaires ; PMI, CAPM et PMBOK sont des marques du Project Management Institute.
 
